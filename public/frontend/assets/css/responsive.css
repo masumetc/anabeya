@@ -1,0 +1,388 @@
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.desk{
+		display:block;
+	}
+	.mob{
+		display:none;
+	}
+	/* Home Page Responsive Style*/
+    section,.header_area,.main_menu{
+    width:90%;
+    }
+    .logo img{
+        width:113px;
+    }
+    .footer{
+        width:100%;
+    }
+    .category_menu ul li{
+        padding:10px 0px;
+    }
+    .category_menu ul li a{
+        font-size:14px;
+    }
+    .info_content h2{
+       font-size:15px;
+    }
+    .info_icon img{
+        width:40px;
+        height:60px;
+        padding:8px;
+    }
+    .btn-outline-secondary,
+    .btn-outline-secondary:hover,
+    .btn-outline-secondary:focus,
+    .btn-outline-secondary:active,
+    .btn-outline-secondary.active,
+    .dropdown-menu,
+    .open .dropdown-toggle.btn-outline-secondary,
+    .btn-outline-secondary:active:focus ,
+    .dropdown-item
+    {
+        font-size:14px;
+    }
+    .sell_title h2{
+        font-size:14px;
+    }
+    .sell_end_date h2 span{
+        font-size:12px;
+        padding:6px 6px;
+        margin:4px;
+    }
+    .sell_more a{
+        padding:6px 20px;
+        font-size:14px;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.desk{
+		display:block;
+	}
+	.mob{
+		display:none;
+	}
+	.home{
+		display:block;
+	}
+	.oPage{
+		display: none;
+	}
+	/* Home Page Responsive Style*/
+	section,.header_area,.main_menu{
+    width:90%;
+    }
+    .logo img{
+        width:100px;
+    }
+    .category_menu ul li{
+        padding:10px 0px;
+    }
+    .category_menu ul li a{
+        font-size:14px;
+    }
+    .info_content h2{
+       font-size:14px;
+    }
+    .info_icon img{
+        width:35px;
+        height:55px;
+        padding:7px;
+    }
+    .btn-outline-secondary,
+    .btn-outline-secondary:hover,
+    .btn-outline-secondary:focus,
+    .btn-outline-secondary:active,
+    .btn-outline-secondary.active,
+    .dropdown-menu,
+    .open .dropdown-toggle.btn-outline-secondary,
+    .btn-outline-secondary:active:focus ,
+    .dropdown-item
+    {
+        font-size:14px;
+    }
+    .sell_title h2{
+        font-size:14px;
+    }
+    .sell_end_date h2 span{
+        font-size:12px;
+        padding:5px 5px;
+        margin:3px;
+    }
+    .sell_more a{
+        padding:6px 18px;
+        font-size:14px;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+	.desk{
+		display:none;
+	}
+	.mob{
+		display:block;
+	}
+	/* Home Page Responsive Style*/
+	section,.header_area,.main_menu{
+    width:90%;
+    }
+    .mob_nav{
+        display:none;
+    }
+    .logo img{
+        width:90px;
+    }
+    .category_field .nav ul{
+        left:0;
+        top:0;
+        padding:20px;
+    }
+    .category_menu ul li a{
+        font-size:14px;
+    }
+    .category_menu ul li{
+        padding:8px 0px;
+    }
+    .category_menu ul li i{
+        font-size:13px;
+    }
+    .info_content h2{
+       font-size:13px;
+    }
+    .info_icon img{
+        width:35px;
+        height:55px;
+        padding:5px;
+    }
+    .btn-outline-secondary,
+    .btn-outline-secondary:hover,
+    .btn-outline-secondary:focus,
+    .btn-outline-secondary:active,
+    .btn-outline-secondary.active,
+    .dropdown-menu,
+    .open .dropdown-toggle.btn-outline-secondary,
+    .btn-outline-secondary:active:focus ,
+    .dropdown-item
+    {
+        font-size:10px;
+    }
+    .sell_title h2{
+        font-size:12px;
+    }
+    .sell_end_date h2{
+        font-size:12px;
+    }
+    .sell_end_date h2 span{
+        font-size:10px;
+        padding:5px 5px;
+        margin:3px;
+    }
+    .sell_more a{
+        padding:5px 8px;
+        font-size:11px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+	div.dataTables_wrapper div.dataTables_filter input{
+	    display:block !important;
+	    margin-left:0;
+	}
+	.desk{
+		display:none;
+	}
+	.mob{
+		display:block;
+	}
+	/* Home Page Responsive Style*/
+	section,.header_area,.main_menu{
+    width: calc(100% - 20px);
+    margin:0 auto;
+    }
+	.mob_botmenu_item{
+	    width:33.33% !important;
+	}
+	.mob_topmenu_item{
+	    width:33.33% !important;
+	}
+    .carousel-item img {
+        height: 250px;
+    }
+    .logo img{
+        width:85px;
+        padding:0px;
+    }
+    .footer{
+        width:100%;
+    }
+    .search_box{
+    padding-top: 3px;
+    }
+    .mob_nav{
+        display:none;
+    }
+    .category_menu ul li i{
+        font-size:13px;
+    }
+    .category_menu ul li span{
+        display:none;
+    }
+    .info_content h2{
+       font-size:14px;
+    }
+    .info_icon img{
+        width:30px;
+        height:50px;
+        padding:5px;
+    }
+    .btn-outline-secondary,
+    .btn-outline-secondary:hover,
+    .btn-outline-secondary:focus,
+    .btn-outline-secondary:active,
+    .btn-outline-secondary.active,
+    .dropdown-menu,
+    .open .dropdown-toggle.btn-outline-secondary,
+    .btn-outline-secondary:active:focus ,
+    .dropdown-item
+    {
+        font-size:8px;
+    }
+    .dropdown-toggle::after {
+        margin-left: 0.255em;
+    }
+    .sell_title h2{
+        font-size:10px;
+    }
+    .sell_end_date h2{
+        font-size:10px;
+    }
+    .sell_end_date h2 span{
+        font-size:12px;
+        padding:3px 3px;
+        margin:2px;
+    }
+    .sell_more a{
+        padding:3px 3px;
+        font-size:10px;
+    }
+    .footer_backround{
+        padding:50px 10px;
+    }
+    .footer{
+        padding:50px 0;
+    }
+    .right{
+        float:left;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 1px) and (max-width: 576px) {
+	div.dataTables_wrapper div.dataTables_filter input{
+	    display:block !important;
+	    margin-left:0;
+	}
+	.desk{
+		display:none;
+	}
+	.mob_nav_bottom{
+	    position:fixed;
+	    bottom:0;
+	    background:#fff;
+	    z-index:1000000;
+	    width:100%;
+	    padding:7px 0;
+	    margin-left:-25px;
+	}
+	.mob_botmenu_item{
+	    width:33.33% !important;
+	}
+	.mob_topmenu_item{
+	    width:33.33% !important;
+	}
+	.mob{
+		display:block;
+	}
+	/* Home Page Responsive Style*/
+	section,.header_area,.main_menu{
+    width:calc(100% - 20px);
+    margin:0 auto;
+    }
+    .carousel-item img {
+        height: 250px;
+    }
+    .logo img{
+        width:80px;
+        padding:0px;
+    }
+    .footer{
+        width:100%;
+    }
+    .search_box{
+    padding-top:3px;
+    }
+    .mob_nav{
+        display:none;
+    }
+    .category_menu ul li i{
+        font-size:16px;
+    }
+    .category_menu ul li span{
+        display:none;
+    }
+    .info_content h2{
+       font-size:13px;
+    }
+    .info_icon img{
+        width:35px;
+        height:55px;
+        padding:5px;
+    }
+    .btn-outline-secondary,
+    .btn-outline-secondary:hover,
+    .btn-outline-secondary:focus,
+    .btn-outline-secondary:active,
+    .btn-outline-secondary.active,
+    .dropdown-menu,
+    .open .dropdown-toggle.btn-outline-secondary,
+    .btn-outline-secondary:active:focus ,
+    .dropdown-item
+    {
+        font-size:8px;
+    }
+    .sell_title h2{
+        font-size:10px;
+    }
+    .sell_end_date h2{
+        font-size:10px;
+    }
+    .sell_end_date h2 span{
+        font-size:11px;
+        padding:3px 3px;
+        margin:2px;
+    }
+    .sell_more a{
+        padding:3px 4px;
+        font-size:9px;
+    }
+    .footer_backround{
+        padding:50px 10px;
+    }
+    .footer_widget{
+        padding:10px 10px 10px 0px;
+    }
+    .footer{
+        padding:50px 0;
+    }
+    .product_first_img{
+        height:180px;
+    }
+    .right{
+        float:left;
+    }
+}

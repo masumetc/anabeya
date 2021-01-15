@@ -1,0 +1,41 @@
+         Github Command
+         
+Add new file in the project
+git command rules:
+1. first download the project 
+	git clone https://github.com/shohorabho/anabeya.git
+2. then check download file. command is: ls 
+3. Then goto the directory as like : anabeya
+4. Then check the file : ls
+5. Then check status : git status
+6. Then add file : git add .
+ or individual file add : git add index.php
+7. Again Check status and new file is added: git status (file color has become green)
+8. Then git commit command : git commit -m 'update or added new file';
+9.Then check status : git status
+10: Then check commit history: git log
+11. Then check status: git status
+12. Then push the project or file in git: git push
+
+// add and modified file in the project 
+1. git status
+2. git add .
+3. git status (modified index.php "green color has become")
+	4. git difftool HEAD //optional command
+4. git commit -m "Updated masud parbhez"
+
+    if (when we get the error :- git error: failed to push some refs to then we are using) { 
+         5. git pull --rebase origin master
+            git push origin master
+    } else {     
+5. git push
+}
+=======================Start=====================
+//Project Run system rules follow when we are downloading the project in github.com 
+1. download the project like as anabeya.
+2. goto the directory root folder directory like as cd anabeya.
+3. Then update the composer.Composer command : composer update
+4. copy .env.example in project.command : cp .env.example .env 
+5.Then key generate command: php artisan key:generate
+6.then run the project.localhost/anabeya
+//===================End======================
